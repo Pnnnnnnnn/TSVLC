@@ -15,7 +15,7 @@ import torch
 
 @lru_cache()
 def default_bpe():
-    return '../vl_checklist_annot_data/bpe_simple_vocab_16e6.txt.gz'
+    return 'TSVLC/vl_checklist_annot_data/bpe_simple_vocab_16e6.txt.gz'
 
 
 @lru_cache()
